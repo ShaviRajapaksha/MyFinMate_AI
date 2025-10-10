@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MyFinMate AI</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="stylesheet" href="assets/css/videoslider.css">
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  ======= Top Bar =======
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">myfinmateai@gmail.com</a>
+      </div>
+      <div class="d-none d-lg-flex social-links align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <!--<h1 class="logo me-auto"><a href="index.html">The Taurus</a></h1>
+      -->
+      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#scope">Scope</a></li>
+          <li><a class="nav-link scrollto" href="#milestones">Milestones</a></li>
+          <li><a class="nav-link scrollto" href="#banner">Banner</a></li>
+          <li><a class="nav-link scrollto" href="#documents">Documentation</a></li>
+          <li><a class="nav-link scrollto" href="#ourteam">Our Team</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section1 id="hero" class="home">
+    <video class="video-slide active" src="assets/videos/1.mp4" autoplay muted loop></video>
+    <video class="video-slide" src="assets/videos/2.mp4" autoplay muted loop></video>
+    <video class="video-slide" src="assets/videos/4.mp4" autoplay muted loop></video>
+    <video class="video-slide" src="assets/videos/3.mp4" autoplay muted loop></video>
+    <div class="content">
+        <h1>Welcome To The <span>MyFinMate AI</span></h1>
+        <p>AI Driven Financial Management Application</p>
+        <a href="#about">Read More</a>
+    </div>
+    <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <div class="slider-navigation" style="pointer-events: none;">
+        <div class="nav-btn active"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+    </div>
+</section1>
+
+<script type="text/javascript">
+    const slides = document.querySelectorAll(".video-slide");
+    let currentSlide = 0;
+
+    // Function to change the active slide
+    function changeSlide() {
+        slides.forEach((slide) => {
+            slide.classList.remove("active");
+        });
+
+        currentSlide = (currentSlide + 1) % slides.length;
+
+        slides[currentSlide].classList.add("active");
+    }
+
+    // Set an interval to automatically change the slide every 5 seconds
+    const interval = setInterval(changeSlide, 4000);
+</script>
+
+
+
+<!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 d-flex align-items-stretch">
+            <div class="content d-flex flex-column justify-content-center">
+              <br><br>
+              <h3>Why Choose The MyFinMate AI?</h3>
+              <p>
+                The MyFinMate AI is a project designed to simplify and
+                enhance personal financial management. Using artificial intelligence, it helps
+                users with financial planning, investment management, debt management, and
+                savings management. By providing predictive analytics, and personalized
+                recommendations, this system empowers users to make smarter financial
+                decisions and achieve their financial goals effectively.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-9 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-3 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0 text-start">
+                    <i class="bx bx-line-chart"></i>
+                    <h5>Planning and Analysis</h5>
+                    <p>The Financial Planning and Analysis (FPA) component is the backbone
+                    of the AI Financial Management System, providing users with a
+                    comprehensive understanding of their financial situation and
+                    offering actionable insights to achieve their financial goals.</p>
+                  </div>
+                </div>
+                <div class="col-xl-3 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0 text-start">
+                    <i class="bx bx-trending-up"></i>
+                    <h5>Investment Management</h5>
+                    <p>The main goal of this component is to assist the users in making better
+                    investment decisions and also in enhancing their investment portfolios. Using
+                    Artificial Intelligence and data analytics, this component provides a full set of
+                    capabilities to assist users cope with the complexity of investment planning
+                    and management.</p>
+                  </div>
+                </div>
+                <div class="col-xl-3 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0 text-start">
+                    <i class="bx bx-wallet"></i>
+                    <h5>Debt Management</h5>
+                    <p>The main goal of this component is to assist users in making necessary
+                    decisions whether they have taken loans, or are taking loans unnecessarily,
+                    or to pay off the loans taken. It is here to assist users to successfully
+                    manage loan payments easily by managing loans using artificial intelligence.</p>
+                  </div>
+                </div>
+                
+                <div class="col-xl-3 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0 text-start">
+                    <i class="bx bx-money-withdraw"></i>
+                    <h5>Savings Management</h5>
+                    <p>AI-based financial management applications for savings
+                    management help users effectively manage their finances, optimize
+                    savings, and achieve financial savings goals using advanced artificial
+                    intelligence techniques.
+                    </p>
+                  </div>
+                </div><!-- End .content-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <div class="container-fluid">
+        <div class="section-title">
+          <h2>About the Project</h2>
+          <p>Read our research domain details here</p>
+        </div>
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 image-box d-flex justify-content-center align-items-stretch position-relative">
+          </div>
+          <div
+            class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <h3>Empowering Smarter Finances with the AI-Driven Financial Management System</h3>
+
+            <p>Our project introduces an innovative AI-Driven Financial Management Application designed to transform the way individuals manage their personal finances. The system intelligently integrates Financial Planning and Analysis, Investment Management, Debt Management, and Saving Management to deliver a complete and personalized financial experience.
+            </p>
+
+            <p>Through advanced artificial intelligence, the application continuously analyzes users' financial data, spending habits, and goals to generate actionable insights and customized recommendations. It empowers users to make informed investment decisions, track and reduce debts efficiently, plan realistic budgets, and optimize savings strategies. This initiative aims to promote financial literacy, independence, and long-term stability, making smart financial management accessible to everyone.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Scope Section ======= -->
+    <section id="scope" class="scope">
+      <div class="container">
+        <div class="section-title">
+          <h2>Research Project Scope</h2>
+          <p>Read our research domain details here</p>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+                  <h5><i class='bx bxs-hand-right'></i> Literature Survey</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+                  <h5><i class='bx bxs-hand-right'></i> Research Gap</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+                  <h5><i class='bx bxs-hand-right'></i> Research Problem</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+                  <h5><i class='bx bxs-hand-right'></i> Objectives</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">
+                  <h5><i class='bx bxs-hand-right'></i> Methodology</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-6">
+                  <h5><i class='bx bxs-hand-right'></i> Tools & Technologies</h5>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row gy-4">
+                  <h3>Literature Survey</h3>
+                  <div class="col-lg-8 text-center order-1 order-lg-2">
+                    <img src="assets/img/Survey.png" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-12 details order-2 order-lg-1">
+                    
+                    <p>Financial planning and analysis (FP&A) play a central role in guiding personal and business
+                    financial decisions, helping users manage income, expenses, and long-term goals.
+                    Traditional approaches, such as manual tracking and static budgeting, often fail to address
+                    dynamic financial needs, whereas AI and Machine Learning (ML) integration has transformed
+                    financial planning. AI-driven systems provide real-time insights, predictive analytics, and
+                    personalized recommendations, leveraging historical data, behavioral analysis, and
+                    economic trends. In the realm of investment management, AI enhances decision-making by
+                    analyzing market trends, forecasting returns, and generating tailored investment strategies,
+                    enabling users to optimize portfolio performance and align investments with their financial
+                    goals. These technologies also address challenges like automation of data entry, accuracy
+                    in predictions, and the maintenance of robust security and privacy standards.</p>
+
+                    <p>The integration of AI has also significantly influenced loan and savings management, areas
+                    traditionally dominated by static tools like calculators and manual journals. Studies indicate
+                    that AI-powered loan management systems can assess financial health, forecast cash
+                    flows, and provide personalized strategies for debt reduction, refinancing, and interest
+                    optimization, thereby enhancing financial literacy and promoting long-term stability.
+                    Similarly, AI-enabled savings management systems support users in automating expense
+                    tracking, generating personalized advice for increasing savings, and improving overall
+                    financial decision-making regardless of prior knowledge. Collectively, these developments
+                    demonstrate that AI integration in financial management not only enhances efficiency and
+                    accuracy but also empowers users to make informed, data-driven decisions, suggesting a
+                    promising direction for future research in intelligent financial tools.</p>                      
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row gy-4">
+                  <h3>Research Gap</h3>
+                  <div class="col-lg-12 details order-2 order-lg-1">
+                    
+                    <p>Despite the significant advancements in financial technology documented in the literature at hand, several necessary gaps still exist that our proposed AI-Based Smart Financial Management Application intends to address. Existing research has examined financial management concerns to some extent, but there has been a marked absence of end-to-end, holistic solutions that address the whole spectrum of personal finance problems from one, single platform. Most of the existing systems are addressing single financial functions without realizing that financial planning, investment, debt, and savings management are inter-related processes.
+                    </p>
+
+                    <p>Despite the significant advancements in financial technology documented in the literature at hand, several necessary gaps still exist that our proposed AI-Based Smart Financial Management Application intends to address. Existing research has examined financial management concerns to some extent, but there has been a marked absence of end-to-end, holistic solutions that address the whole spectrum of personal finance problems from one, single platform. Most of the existing systems are addressing single financial functions without realizing that financial planning, investment, debt, and savings management are inter-related processes.
+                    </p>
+
+                  </div>
+                  <div class="col-lg-8 text-center order-1 order-lg-2">
+                    <img src="assets/img/researchgap.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row gy-4">
+                  <h3>Research Problem</h3>
+                  <div class=" details order-2 order-lg-1">
+    
+                    <h5>Proposed Problem
+                    </h5>
+                    <p>The current financial landscape presents individuals with even more unprecedented
+                    problems in the aspects of successful personal financial management. The key research
+                    problem addressed here is the imperative mismatch between the complexity of modern
+                    financial decision-making and technology that will enable individuals to deal with it. which
+                    creates a high cognitive burden for individuals trying to maintain control over their finances.
+                    Coupled with limited financial literacy, lack of visibility into future consequences of financial
+                    decisions, and inadequate tools for debt and investment management, this fragmentation
+                    leads to poor financial decision-making, missed opportunities, and long-term instability.
+                    Current systems are largely reactive, fail to integrate interdependent financial activities, and
+                    ignore behavioral and psychological factors, leaving users unable to proactively manage
+                    spending, saving, investing, and borrowing in a coordinated manner.
+                    </p>
+                    <h5>Proposed Solution
+                    </h5>
+                    <p>The proposed solution is an AI-Based Smart Financial Management Application that
+                    integrates all aspects of personal finance into a single platform, providing users with a
+                    holistic view of their financial standing. The system incorporates advanced data capture and
+                    classification to unify information from diverse sources, predictive modeling to anticipate
+                    financial challenges and opportunities, and interactive tools for planning, investment,
+                    savings, and debt management. Gamification and behavioral nudges address psychological
+                    barriers, while community features and an AI chatbot enhance financial literacy and
+                    decision-making. By linking all financial actions and providing proactive, context-aware
+                    guidance, the platform enables users to manage their finances efficiently, make informed
+                    decisions, and achieve long-term financial stability.
+                    </p>
+                  </div>
+                  <div class="col-lg-8 text-center order-1 order-lg-2">
+                    <img src="assets/img/researchproblem.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row gy-4">
+                  <h3>Research Objectives</h3>
+                  <div class="details order-2 order-lg-1">
+                    
+                    <p class="fst-italic"><h5>Main Objective</h5></p>
+                    <p>The main objective of the proposed system is to create an intelligent, integrated, and
+                    consumer-centric financial management platform that unifies planning, investment, debt,
+                    and savings management into a single ecosystem. The system aims to provide
+                    individualized, context-aware financial plans that adapt to users' experience, priorities, and
+                    changing circumstances, balancing short-term needs with long-term goals while
+                    considering regional economic realities. It delivers safe and practical investment and debt
+                    management tools, localized recommendations, ongoing credit monitoring, and AI-driven
+                    coaching to help users grow wealth and mitigate risk. Additionally, the platform fosters
+                    disciplined saving behaviors through structured micro-goals, cost optimization, gamified
+                    engagement, and interactive tracking, presenting savings as motivating and achievable. By
+                    offering real-time alerts, chatbot and voice interfaces, and transparent reporting, the system
+                    seeks to act as a trusted financial assistant, enhancing literacy, confidence, and financial
+                    inclusion, particularly in developing contexts like Sri Lanka.
+                    </p>
+ 
+                    <p class="fst-italic"><h5>Sub Objectives</h5></p>
+                    <ul>
+                      <li>Planning and Analysis
+                        <ul>
+                          <li>Design and implement predictive models to accurately forecast.</li>
+                          <li>Enable users to add financial details effortlessly using technologies such as OCR.</li>
+                        </ul>
+                      </li>
+                      <li>Investment management
+                        <ul>
+                          <li>Build AI Algorithms to Predict Trends in Sri Lankan Stock and Commodities Markets.</li>
+                          <li>Create a System to Provide Personalized Investment Suggestions Based on User Goals and Risk Levels.</li>
+                        </ul>
+                      </li>
+                      <li>Debt management
+                        <ul>
+                          <li>Leverage AI analytics to provide tailored debt insights, including payoff strategies, interest savings, and goal progress.</li>
+                          <li>Offer tools to detect financial risks and provide solutions to minimize long-term debt.</li>
+                          <li>Provide AI-driven tools to create and optimize personalized debt relief strategies.</li>
+                        </ul>
+                      </li>
+                      <li>Cost Reduction Savings Management System
+                        <ul>
+                          <li>To develop a system that is tailored to Sri Lanka's economic conditions for personalized savings strategies.</li>
+                          <li>Offer AI-powered tools to help users set, track, and achieve short-term and long-term goals in line with Sri Lanka's financial realities.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- <div class="col-lg-6 text-center order-1 order-lg-2">
+                    <img src="assets/img/ocr.jpg" alt="" class="img-fluid">
+                    <br>
+                    <hr>
+                    <img src="assets/img/tts.jpg" alt="" class="img-fluid">
+                    <br>
+                    <hr>
+                    <img src="assets/img/obj.jpg" alt="" class="img-fluid">
+                    <br>
+                    <hr>
+                    <img src="assets/img/imges.png" alt="" class="img-fluid">
+                    <br>
+                    <br>
+                  </div> -->
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row gy-4">
+                  <h3>Methodology</h3>
+                  <div class="col-lg-12 details order-2 order-lg-1">
+                    <p>The proposed AI-Based financial management system consists of 4 main components. They are; 
+                    </p>
+                    <ol>
+                      <li>Planning and Analysis</li>
+                      <li>Investment Management</li>
+                      <li>Debt Management</li>
+                      <li>Savings Management</li>
+                    </ol>
+                    <p>The requirements collection for the AI-Based Smart Financial Management Application was
+                    conducted through a combination of primary and secondary research methods to ensure
+                    the system meets the diverse needs of users while adhering to local economic and
+                    regulatory conditions. Primary research involved engaging with end users through surveys,
+                    interviews, and group discussions to identify pain points, expectations, and desired
+                    features. User personas were developed to represent varying levels of financial literacy,
+                    income, and financial goals. Additionally, consultations with financial experts, including
+                    investment advisers, debt management specialists, and planners, provided insights into
+                    best practices, effective strategies, and regulatory constraints relevant to the Sri Lankan
+                    context.
+                    </p>
+                    <p>Secondary research included an in-depth analysis of existing domestic and international
+                    financial applications to identify gaps, strengths, and areas where AI could add value,
+                    focusing on budgeting, investment tracking, debt management, and savings planning.
+                    Regulatory and legal guidelines from the Central Bank of Sri Lanka and other financial
+                    authorities were reviewed to ensure compliance with finance, banking, taxation, and
+                    investment standards. Technical feasibility studies were also conducted to evaluate the
+                    applicability of AI and machine learning technologies, mobile app platforms, and data
+                    analytics capabilities, ensuring that the system could be practically implemented while
+                    delivering a robust, user-centric financial management solution.
+                    </p>
+                  </div>
+                  <div class="col-lg-8 text-center order-1 order-lg-2">
+                    <img src="assets/img/systemdiagram.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-6">
+                <div class="row gy-4">
+                  <h3>Tools & Technologies</h3>
+                  <div class="col-lg-4 details order-2 order-lg-1">
+
+                    <p>Android Studio</p>
+                    <p>Jupyter Notebook</p>
+                    <p>VS Code</p>
+                    <p>GitHub</p>
+                    <p>Flutter</p>
+                    <p>Flask</p>
+                    <p>FastAPI</p>
+           
+                  </div>
+                  <div class="col-lg-8 text-center order-1 order-lg-2">
+                    <img src="assets/img/toolsandtech.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Scope Section -->
+
+    <!-- ======= Milestones Section ======= -->
+    <section id="milestones" class="milestones">
+      <div class="container">
+
+        <div class="row">
+          <!-- <div class="col-lg-4"> -->
+          <div class="section-title">
+            <h2>Milestones</h2>
+          </div>
+          <!-- </div> -->
+
+          <div class="row">
+            <div class="col-xl-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                <div class="icon"><i class="fas fa-file-powerpoint"></i></div>
+                <h4><a href="" target="_blank">Project Proposal</a></h4>
+                <p>Proposal presentation and the proposal report submission.</p><br>
+                <p>Marks Allocated : 12%</p>
+              </div>
+            </div>
+
+            <div class="col-xl-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                <div class="icon"><i class="fas fa-file-powerpoint"></i></div>
+                <h4><a href="" target="_blank">Progress Presentation 1</a></h4>
+                <p>50% progress presentation of the research project.</p><br>
+                <p>Marks Allocated : 15%</p>
+              </div>
+            </div>
+
+            <div class="col-xl-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+                <div class="icon"><i class="fas fa-file-powerpoint"></i></div>
+                <h4><a href="" target="_blank">Progress Presentation 2</a></h4>
+                <p>90% progress presentation of the research project.</p><br>
+                <p>Marks Allocated : 18%</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="col-xl-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                <div class="icon"><i class="fas fa-file-powerpoint"></i></div>
+                <h4><a href="" target="_blank">Demonstration</a></h4>
+                <p>Submission and presentation. </p><br>
+                <p>Marks Allocated : 10%</p>
+              </div>
+            </div>
+
+            <div class="col-xl-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                <div class="icon"><i class="fas fa-file-powerpoint"></i></div>
+                <h4><a href="" target="_blank">Final Assessment</a></h4>
+                <p>Submission of final reports of the research. </p><br>
+                <p>Marks Allocated : 10%</p>
+              </div>
+            </div>
+
+            <div class="col-xl-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                <div class="icon"><i class="fas fa-users"></i></div>
+                <h4><a href="" target="_blank">Viva</a></h4>
+                <p>Final viva. </p><br>
+                <p>Marks Allocated : 10%</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <!-- End Milestones Section -->
+
+    <section id="Banner" class="banner section-bg2">
+      <div class="container">
+        <div class="section-title">
+          <h2>Project Banner</h2>
+          
+        </div>
+      </div>
+    </section>
+    <!-- ======= Documentation Section =======-->
+    <section id="documents" class="documents section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Documentation</h2>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-7">
+                  <h5>Project Charter</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-8">
+                  <h5>Proposal Document</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-9">
+                  <h5>Research Logbook</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-10">
+                  <h5>Status Document I</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-11">
+                  <h5>Status Document II</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-12">
+                  <h5>Final Report</h5>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-7">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Project Charter</h3>
+                    <p><h4>
+                      Click Here to View the Project Charter Document</h4>
+                     </p>
+                     <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> Project_Charter</a></h4></p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-8">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Proposal Document</h3>
+                    <p>
+                      <h4>Access the Individual Proposal Documents Using Following Links</h4>
+                    </p>
+                    <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> IT20272654_Rajapaksha R.P.S.V <a></h4></p>
+                    <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> 21286964_Nethmina B.L.T </a></h4></p>
+                    <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> IT21138218_Ekanayake E.M.S.P </a></h4></p>
+                    <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> IT21049736_Nimehsa K.H </a></h4></p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-9">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Research Logbook</h3>
+                    <p><h4>
+                      Access the Research Logbook Documents Using Following Links</h4>
+                    </p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> IT20272654_Rajapaksha R.P.S.V <a></h4></p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> 21286964_Nethmina B.L.T </a></h4></p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> IT21138218_Ekanayake E.M.S.P </a></h4></p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> IT21049736_Nimehsa K.H </a></h4></p>
+                    </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-10">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Status Document I</h3>
+                    <p><h4>
+                      Access Status Document_I Using Following Links</h4>
+                    </p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> IT20272654_Rajapaksha R.P.S.V <a></h4></p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> 21286964_Nethmina B.L.T </a></h4></p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> IT21138218_Ekanayake E.M.S.P </a></h4></p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> IT21049736_Nimehsa K.H </a></h4></p>
+                    </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-11">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Status Document II</h3>
+                    <p><h4>
+                      Access Status Document_II Using Following Links</h4>
+                    </p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> IT20272654_Rajapaksha R.P.S.V <a></h4></p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> 21286964_Nethmina B.L.T </a></h4></p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> IT21138218_Ekanayake E.M.S.P </a></h4></p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> IT21049736_Nimehsa K.H </a></h4></p>
+                    </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-12">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Final Reports</h3>
+                    <p><h4>
+                      Access the Final Group Report Using Following Link</h4>
+                    </p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> Group_Report</a></h4></p>
+                        <p><h4>
+                          Access the Individual Final Reports Using Following Links</h4>
+                        </p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> IT20272654_Rajapaksha R.P.S.V <a></h4></p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> 21286964_Nethmina B.L.T </a></h4></p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> IT21138218_Ekanayake E.M.S.P </a></h4></p>
+                      <p><h4><a href="" target="_blank"><i class='bx bxs-hand-right'></i> IT21049736_Nimehsa K.H </a></h4></p>
+                    </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Documentation Section -->
+
+
+    <!-- ======= About Us Section ======= -->
+    <section id="ourteam" class="ourteam">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our Team</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/supervisor.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Prof. Pradeep Abeygunawardhana</h4>
+                <span>SUPERVISOR</span>
+                <p>Senior Professor</p>
+                <p>Pradeep.a@sliit.lk
+                </p>
+                <p>FACULTY OF COMPUTING | INFORMATION TECHNOLOGY</p>
+                <div class="social">
+                  <a><i class="ri-twitter-fill"></i></a>
+                  <a><i class="ri-facebook-fill"></i></a>
+                  <a><i class="ri-instagram-fill"></i></a>
+                  <a href="" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/cosupervisor.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Dr. Sanvitha Kasthuriarachchi</h4>
+                <span>Co-SUPERVISOR</span>
+                <p>Assistant Professor</p>
+                <p>sanvitha.k@sliit.lk
+                </p>
+                <p>FACULTY OF COMPUTING | INFORMATION TECHNOLOGY</p>
+                <div class="social">
+                  <a><i class="ri-twitter-fill"></i></a>
+                  <a><i class="ri-facebook-fill"></i></a>
+                  <a><i class="ri-instagram-fill"></i></a>
+                  <a href="" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/member1.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Rajapaksha R.P.S.V.</h4>
+                <span>TEAM Leader</span>
+                <p>IT20272654</p>
+                <p>shavindurajapaksha@gmail.com
+                </p>
+                <p>FACULTY OF COMPUTING | INFORMATION TECHNOLOGY</p>
+                <div class="social">
+                  <a><i class="ri-twitter-fill"></i></a>
+                  <a><i class="ri-facebook-fill"></i></a>
+                  <a><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/shavindurajapaksha/" target="_blank"> <i class="ri-linkedin-box-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/member2.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Nethmina B.L.T </h4>
+                <span>TEAM Member</span>
+                <p>21286964</p>
+                <p>abc@gmail.com
+                </p>
+                <p>FACULTY OF COMPUTING | INFORMATION TECHNOLOGY</p>
+                <div class="social">
+                  <a><i class="ri-twitter-fill"></i></a>
+                  <a><i class="ri-facebook-fill"></i></a>
+                  <a><i class="ri-instagram-fill"></i></a>
+                  <a href="" target="_blank"> <i class="ri-linkedin-box-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/member3.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ekanayake E.M.S.P. </h4>
+                <span>TEAM Member</span>
+                <p>IT21138218</p>
+                <p>abc@gmail.com
+                </p>
+                <p>FACULTY OF COMPUTING | INFORMATION TECHNOLOGY</p>
+                <div class="social">
+                  <a><i class="ri-twitter-fill"></i></a>
+                  <a><i class="ri-facebook-fill"></i></a>
+                  <a><i class="ri-instagram-fill"></i></a>
+                  <a href="" target="_blank"> <i class="ri-linkedin-box-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/member4.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Nimehsa K.H </h4>
+                <span>TEAM MEMBER</span>
+                <p>IT21049736</p>
+                <p>abc@gmail.com
+                </p>
+                <p>FACULTY OF COMPUTING | INFORMATION TECHNOLOGY</p>
+                <div class="social">
+                  <a><i class="ri-twitter-fill"></i></a>
+                  <a><i class="ri-facebook-fill"></i></a>
+                  <a><i class="ri-instagram-fill"></i></a>
+                  <a href="" target="_blank"> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End about us Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class="section-title">
+              <h2>Contact Us</h2>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7985117576864!2d79.97075581477283!3d6.914677495003823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae256db1a6771c5%3A0x2c63e344ab9a7536!2sSri%20Lanka%20Institute%20of%20Information%20Technology!5e0!3m2!1sen!2slk!4v1654861438602!5m2!1sen!2slk"
+                  width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="info mt-4">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>SLIIT Malabe Campus, New Kandy Rd, Malabe, SriLanka</p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 mt-4">
+                    <div class="info">
+                      <i class="bi bi-envelope"></i>
+                      <h4>Email:</h4>
+                      <p>myfinmateai@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="info w-100 mt-4">
+                      <i class="bi bi-phone"></i>
+                      <h4>Call:</h4>
+                      <p> </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h3>MyFinMate AI </h3>
+            <p>
+              SLIIT Malabe Campus,
+              New Kandy Rd,
+              Malabe, SriLanka <br><br>
+              <strong>Phone:</strong> <br>
+              <strong>Email:</strong> myfinmateai@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#scope">Scope</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Documents</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#documents">Documentation</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#milestones">Milestones</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#ourteam">Our Team</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Contact US</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">myfinmateai@gmail.com</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">+94 77 5338 747</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">SLIIT Malabe Campus</a></li>
+              </ul>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>MyFinMate AI</span> 2025 </strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+        <a href="" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
