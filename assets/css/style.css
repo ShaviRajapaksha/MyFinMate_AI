@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #3291e6;
+  color: #178178;
   text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #178178;
-  border-top-color: #d1e6f9;
+  border-top-color: #178178;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -104,7 +104,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #298ce5;
+  background: #178178;
   color: #fff;
 }
 
@@ -121,7 +121,7 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #fff;
+  background: #0c8450;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -139,11 +139,11 @@ h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #1977cc;
+  color: #ffffff;
 }
 
 #topbar .contact-info i {
-  color: #178178;
+  color: #444444;
   padding-right: 4px;
   margin-left: 15px;
   line-height: 0;
@@ -154,7 +154,7 @@ h6 {
 }
 
 #topbar .social-links a {
-  color: #437099;
+  color: #444444;
   padding-left: 15px;
   display: inline-block;
   line-height: 1px;
@@ -162,7 +162,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #178178;
+  color: #ffffff;
 }
 
 #topbar .social-links a:first-child {
@@ -332,7 +332,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #2c4964;
+  color: #0c8450;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -465,7 +465,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #2c4964;
+  color: #0c8450;
 }
 
 .section-title h2::before {
@@ -485,7 +485,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #178178;
+  background: #0c8450;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -566,9 +566,7 @@ section {
 .why-us .content {
   padding: 15px;
   background: #0c8450;
-  border-radius: 4px;
   color: #fff;
-  border-radius: 4%;
 }
 
 .why-us .content h3 {
@@ -586,7 +584,6 @@ section {
   background: rgba(255, 255, 255, 0.2);
   padding: 6px 30px 8px 30px;
   color: #fff;
-  border-radius: 50px;
   transition: all ease-in-out 0.4s;
 }
 
@@ -601,7 +598,6 @@ section {
 
 .why-us .icon-boxes .icon-box {
   text-align: center;
-  border-radius: 10px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 40px 30px;
@@ -813,7 +809,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #06a970;
+  background: #0c8450;
   border-radius: 50px;
   display: flex;
   align-items: center;
