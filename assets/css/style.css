@@ -851,7 +851,7 @@ section {
 }
 
 .milestones .icon-box:hover h4 a {
-  color: #178178;
+  color: #0c8450;
 }
 
 .milestones .icon-box:hover .icon {
@@ -883,12 +883,12 @@ section {
 }
 
 .scope .nav-link:hover {
-  color: #074919;
+  color: #0c8450;
 }
 
 .scope .nav-link.active {
-  color: #074919;
-  border-color: #074919;
+  color: #0c8450;
+  border-color: #0c8450;
 }
 
 .scope .tab-pane.active {
@@ -900,7 +900,7 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #2c4964;
+  color: #0c8450;
 }
 
 .scope .details p {
@@ -919,7 +919,7 @@ section {
 
   .scope .nav-link.active {
     color: #fff;
-    background: #178178;
+    background: #0c8450;
   }
 }
 
@@ -1170,7 +1170,7 @@ section {
 
 .ourteam .member {
   position: relative;
-  box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+  box-shadow: 0px 2px 15px rgba(95, 95, 95, 0.08);
   padding: 30px;
   border-radius: 10px;
 }
@@ -1198,7 +1198,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #2c4964;
+  color: #06a970;
 }
 
 .ourteam .member span {
@@ -1211,7 +1211,7 @@ section {
 
 .ourteam .member p1 {
   display: block;
-  font-size: 9px;
+  font-size: 14px;
   position: relative;
   font-weight: 500;
 }
@@ -1222,7 +1222,7 @@ section {
   display: block;
   width: 50px;
   height: 1px;
-  background: #b2c8dd;
+  background: #06a970;
   bottom: 0;
   left: 0;
 }
@@ -1248,7 +1248,7 @@ section {
   border-radius: 50px;
   width: 32px;
   height: 32px;
-  background: #a0bcd5;
+  background: #06a970;
 }
 
 .ourteam .member .social a i {
@@ -1258,7 +1258,7 @@ section {
 }
 
 .ourteam .member .social a:hover {
-  background: #1977cc;
+  background: #034a31;
 }
 
 .ourteam .member .social a+a {
