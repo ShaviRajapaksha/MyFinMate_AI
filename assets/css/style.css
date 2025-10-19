@@ -51,8 +51,8 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #178178;
-  border-top-color: #178178;
+  border: 6px solid #0c845068;
+  border-top-color: #0c8450;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -1517,6 +1517,47 @@ section {
   }
 
   100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Map Loader Styles */
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.map-loader {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.95);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  transition: opacity 0.5s ease;
+}
+
+.spinner {
+  width: 45px;
+  height: 45px;
+  border: 4px solid #06a970;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.map-loader p {
+  margin-top: 12px;
+  color: #06a970;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+@keyframes spin {
+  to {
     transform: rotate(360deg);
   }
 }
