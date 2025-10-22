@@ -916,6 +916,12 @@ section {
   margin-bottom: 0;
 }
 
+.scope .nav-link.active {
+    padding-left: 20px;
+    color: #fff;
+    background: #0c8450;
+  }
+
 @media (max-width: 992px) {
   .scope .nav-link {
     border: 0;
@@ -991,7 +997,7 @@ section {
 
   .documents .nav-link.active {
     color: #ffffff;
-    background: #178178;
+    background: #06a970;
   }
 }
 
